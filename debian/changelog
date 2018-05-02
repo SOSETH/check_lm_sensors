@@ -1,0 +1,5 @@
+check-lm-sensors (4.4.1-36e453f-1) unstable; urgency=medium
+
+  * Initial release, corresponds to upstream commit 36e453f
+
+ -- Maximilian Falkenstein <mfalkenstein@sos.ethz.ch>  Wed, 02 May 2018 21:08:02 +0200

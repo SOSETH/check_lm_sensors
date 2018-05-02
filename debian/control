@@ -1,0 +1,14 @@
+Source: check-lm-sensors
+Section: devel
+Priority: optional
+Maintainer: Maximilian Falkenstein <mfalkenstein@sos.ethz.ch>
+Build-Depends: debhelper (>= 9), perl, libmodule-install-perl, libmonitoring-plugin-perl
+Standards-Version: 3.9.8
+Homepage: https://github.com/matteocorti/check_lm_sensors
+Vcs-Git: https://github.com/SOSETH/check_lm_sensors.git
+Vcs-Browser: https://github.com/SOSETH/check_lm_sensors
+
+Package: check-lm-sensors
+Architecture: all
+Depends: ${perl:Depends}, libmonitoring-plugin-perl
+Description: Check lm-sensors
